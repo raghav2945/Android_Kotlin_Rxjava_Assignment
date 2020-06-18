@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Android Assignment</string>
+    <!-- Strings related to login -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="invalid_credential">Incorrect username or password</string>
+    <string name="no_internet">Please check internet connection</string>
+    <string name="server_error">Something went wrong</string>
+    <string name="server_error_with_action">Something went wrong. Please try to login again.</string>
+    <string name="user_id_label">User Id: %d</string>
+    <string name="agent_id_label">Agent Id: %d</string>
+    <string name="thread_id_label">Thread Id - %d</string>
+    <string name="user_id">User ID</string>
+    <string name="type_here_to_reply">Type here to reply</string>
+    <string name="reply">Reply</string>
+    <string name="empty_text_error">%s can not be blank.</string>
+    <string name="login_lable">Login</string>
+    <string name="messages_text">Messages</string>
+    <string name="details_text">Details</string>
+    <string name="logout">Logout</string>
+    <string name="replied_text">You have replied to this thread</string>
+    <string name="yes_text">Yes</string>
+    <string name="cancel_text">Cancel</string>
+</resources>

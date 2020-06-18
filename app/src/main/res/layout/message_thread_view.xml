@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="4dp"
+    app:elevation="2dp">
+
+
+    <RelativeLayout
+        android:id="@+id/item_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/body_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="So it means if u pay ua loan before the due date is a disadvantage the last time I paid earlier it was still a problem"
+            android:textColor="@color/textPrimary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/read_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="-16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="8dp"
+            android:text="read more.."
+            android:textColor="@color/colorPrimary" />
+
+        <LinearLayout
+            android:id="@+id/user_agent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/body_text"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:id="@+id/user_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+                <ImageView
+                    android:id="@+id/user_image"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_action_name" />
+
+                <TextView
+                    android:id="@+id/user_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="User Id: 201"
+                    android:textColor="@color/textSecondary" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/agent_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+                <ImageView
+                    android:id="@+id/agent_image"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_action_name" />
+
+                <TextView
+                    android:id="@+id/agent_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Agent Id: 201"
+                    android:textColor="@color/textSecondary" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/time_stamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_agent_layout"
+            android:padding="8dp"
+            android:text="23 june, 2020"
+            android:textColor="@color/textTertiary"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
